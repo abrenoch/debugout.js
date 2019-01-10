@@ -29,6 +29,8 @@ bower: `bower install debugout.js`
 Create a new debugout object in the global namespace, at the top of your script, and replace all your console log methods with debugout's log method:
 
 ```js
+import debugout from 'debugout.js'
+
 var bugout = new debugout();
 
 // instead of console.log('some object or string')
